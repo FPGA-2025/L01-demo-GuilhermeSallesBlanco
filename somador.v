@@ -4,6 +4,6 @@ module somador( // A definição do módulo significa que esse é um componente 
   output [3:0] soma // saída de 4 bits
 );
 
-//  assign soma = a + b; // soma dos dois sinais de entrada
+assign soma = a + b; // soma dos dois sinais de entrada
 
 endmodule // Aqui acaba o módulo somador
